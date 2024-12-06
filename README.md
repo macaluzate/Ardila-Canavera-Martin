@@ -37,7 +37,7 @@ A = np.array([[2, 1], [1, 3]], dtype=float)
 x0 = np.array([1, 1], dtype=float)
 
 # Llama a la función
-eigenvalue, eigenvector, iterations = largest_eigenvalue(A, x0, 1e-8, 100)
+eigenvalue, eigenvector, iterations = largeeig_recursive(A, x0, 1e-8, 100)
 
 print("Eigenvalor dominante:", eigenvalue)
 print("Eigenvector correspondiente:", eigenvector)
