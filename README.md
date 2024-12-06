@@ -1,3 +1,27 @@
+# Tarea 1
+
+**Ardila Otero, María Paula**  
+**Cañavera Aluma, Mateo**  
+**Martin Acosta, David Esteban**  
+
+
+---
+
+**3006886: Análisis Numérico**  
+**Departamento de Matemáticas**  
+**Universidad Nacional de Colombia**
+
+---
+
+**Diciembre 6, 2024**
+
+# Tabla de contenidos:
+- [Proyecto del Método de las Potencias](#proyecto-del-método-de-las-potencias)
+  - [Descripción](#descripción)
+  - [Pre-requisitos](#pre-requisitos)
+  - [Dependencias](#dependencias)
+
+
 # Proyecto del Método de las Potencias
 
 ## Descripción
@@ -12,35 +36,3 @@ Este código depende de la biblioteca `numpy`. Puedes instalar esta biblioteca u
 ```bash
 pip install numpy
 ```
-
-## Uso
-Para usar el código, abre el Jupyter Notebook Método_de_las_potencias.ipynb y ejecuta las celdas. Aquí tienes una guía rápida para usar la función principal:
-
-## Función largeeig_recursive(A, x0, tol, maxiter)
-**Parámetros:**
-- A: Matriz cuadrada numpy array. Debe ser diagonalizable.
-- x0: Vector inicial numpy array. No debe ser el vector cero.
-- tol: Tolerancia para el criterio de parada (tipo float).
-- maxiter: Número máximo de iteraciones (tipo int).
-
-**Retorno:**
-- lambda_val: Eigenvalor dominante encontrado.
-- x_next: Eigenvector correspondiente al eigenvalor dominante.
-- k: Número de iteraciones realizadas.
-
-**Ejemplo de uso:**
-```python
-import numpy as np
-
-# Define la matriz y el vector inicial
-A = np.array([[2, 1], [1, 3]], dtype=float)
-x0 = np.array([1, 1], dtype=float)
-
-# Llama a la función
-eigenvalue, eigenvector, iterations = largeeig_recursive(A, x0, 1e-8, 100)
-
-print("Eigenvalor dominante:", eigenvalue)
-print("Eigenvector correspondiente:", eigenvector)
-print("Iteraciones realizadas:", iterations)
-```
-
