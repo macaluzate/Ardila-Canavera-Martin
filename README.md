@@ -46,7 +46,7 @@ Este código depende de la biblioteca `numpy`. Puedes instalar esta biblioteca u
 pip install numpy
 ```
 
-# proyecto-del-método-de-la-descomposición-QR
+# proyecto del método de la descomposición QR
 
 ## Descripción
 Este proyecto utiliza el método de descomposición QR de forma iterativa para calcular los eigenvalores y eigenvectores de una matriz. A través de este proceso, la matriz es descompuesta repetidamente en una matriz ortogonal (Q) y una matriz triangular (R). La iteración continua permite aproximarse progresivamente a los eigenvalores, y dependiendo del tipo de matriz, la precisión de las aproximaciones puede variar. Este enfoque iterativo ofrece una forma eficiente de obtener los eigenvalores y eigenvectores con un grado de exactitud que se ajusta al comportamiento y la naturaleza de la matriz en cuestión.
