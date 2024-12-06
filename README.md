@@ -68,3 +68,4 @@ Puedes instalar ambas bibliotecas usando pip:
 pip install numpy sympy
 ```
 
+
