@@ -15,6 +15,10 @@
 
 **Diciembre 6, 2024**
 
+# Nota Importante Sobre el Notebook 'Teoría'
+Debido al gran tamaño del notebook `Teoría`, su previsualización en GitHub puede no ser posible. Recomendamos descargar el documento directamente para poder visualizarlo y trabajar con él sin inconvenientes. Esto asegurará que puedas acceder a todo el contenido y funcionalidad del notebook sin problemas de carga.
+
+
 # Tabla de contenidos:
 - [Proyecto del Método de las Potencias](#proyecto-del-método-de-las-potencias)
   - [Descripción](#descripción)
