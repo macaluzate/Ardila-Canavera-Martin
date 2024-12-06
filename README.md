@@ -24,9 +24,9 @@ Para usar el código, abre el Jupyter Notebook Método_de_las_potencias.ipynb y 
 - maxiter: Número máximo de iteraciones (tipo int).
 
 **Retorno:**
-- lambda_: Eigenvalor dominante encontrado.
-- x: Eigenvector correspondiente al eigenvalor dominante.
-- iter_: Número de iteraciones realizadas.
+- lambda_val: Eigenvalor dominante encontrado.
+- x_next: Eigenvector correspondiente al eigenvalor dominante.
+- k: Número de iteraciones realizadas.
 
 **Ejemplo de uso:**
 ```python
