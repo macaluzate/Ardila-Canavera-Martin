@@ -24,6 +24,11 @@ Debido al gran tamaño del notebook `Teoría`, su previsualización en GitHub pu
   - [Descripción](#descripción)
   - [Pre-requisitos](#pre-requisitos)
   - [Dependencias](#dependencias)
+- - [Proyecto del Método de Descomposición QR](#proyecto-del-método-de-la-descomposición-QR)
+  - [Descripción](#descripción)
+  - [Pre-requisitos](#pre-requisitos)
+  - [Dependencias](#dependencias)
+- 
 
 
 # Proyecto del Método de las Potencias
@@ -40,3 +45,26 @@ Este código depende de la biblioteca `numpy`. Puedes instalar esta biblioteca u
 ```bash
 pip install numpy
 ```
+
+# proyecto-del-método-de-la-descomposición-QR
+
+## Descripción
+Este proyecto utiliza el método de descomposición QR de forma iterativa para calcular los eigenvalores y eigenvectores de una matriz. A través de este proceso, la matriz es descompuesta repetidamente en una matriz ortogonal (Q) y una matriz triangular (R). La iteración continua permite aproximarse progresivamente a los eigenvalores, y dependiendo del tipo de matriz, la precisión de las aproximaciones puede variar. Este enfoque iterativo ofrece una forma eficiente de obtener los eigenvalores y eigenvectores con un grado de exactitud que se ajusta al comportamiento y la naturaleza de la matriz en cuestión.
+
+## Pre-requisitos
+Para ejecutar este proyecto, necesitarás Python y algunas bibliotecas específicas. Asegúrate de tener instalado Python 3.8 o superior.
+
+
+## Dependencias
+
+Este código depende de las siguientes bibliotecas:
+
+- `numpy`: Para el manejo eficiente de matrices y operaciones numéricas.
+- `sympy`: Para el manejo simbólico de matrices y la simplificación de expresiones algebraicas.
+
+Puedes instalar ambas bibliotecas usando pip:
+
+```bash
+pip install numpy sympy
+```
+
