@@ -20,6 +20,10 @@ Debido al gran tamaño del notebook `Teoría`, su previsualización en GitHub pu
 
 
 # Tabla de contenidos:
+- [Proyecto del Método del Polinomio Caracteristico](#proyecto-del-método-del-polinomio-caracterisico)
+  - [Descripción](#descripción)
+  - [Pre-requisitos](#pre-requisitos)
+  - [Dependencias](#dependencias)
 - [Proyecto del Método de las Potencias](#proyecto-del-método-de-las-potencias)
   - [Descripción](#descripción)
   - [Pre-requisitos](#pre-requisitos)
