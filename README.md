@@ -93,4 +93,7 @@ Puedes instalar ambas bibliotecas usando pip:
 pip install numpy sympy
 ```
 
+#### Nota
+
+Algunos commits no se reflejaron correctamente en la cuenta de **macaluzate**, y en su lugar aparece el usuario **'Tu nombre'**.
 
